@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosmilk | Hỗ Trợ khách hàng</title>
+    <link rel="stylesheet" href="Dinos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Dosis&family=Hurricane&family=Inter:wght@300&family=Lora:ital,wght@1,700&family=Pacifico&display=swap" rel="stylesheet"></head>
+<body>
+    <div id="first">
+        <div class="index">
+            <a href="index.html" class="logo">Dinosmilk</a>
+            <ul class="menu">
+                <li><a class="color" href="index.html">TRANG CHỦ</a></li>
+                <li><a class="color" href="#">PHÂN PHỐI</a></li>
+                <li class="menu-product">
+                    <a class="color" href="#">SẢN PHẨM</a>
+                    <ul class="product">
+                        <li><a class="brand-vina" href="Vinamilk.html">Vinamilk</a></li>
+                        <li><a class="brand-th" href="TH.html">TH True Milk</a></li>
+                        <li><a class="brand-nuti" href="Nuti.html">Nutifood</a></li>
+                        <li>Khác</li>
+                    </ul>
+                </li>
+                <li><a class="color" href="Support.html">HỖ TRỢ</a></li>  
+            </ul>
+        </div>
+        <span><img class="logo-img" src="logo.png" alt=""></span>
+    </div>
+    <div class="support-content">
+        <div class="BMI">
+            <h1>KIỂM TRA BMI</h1>
+            <H3>- BMI là chỉ số khối cơ thể (Body Mass Index) - được dùng để đánh giá mức độ gầy hay béo của một người, áp dụng cho người trên 19 tuổi. Chỉ số khối cơ thể của một người tính bằng công thức:</H3>
+            <img src="/images/BMI.png" alt="">
+            <h3>- Nhập cân nặng và chiều cao để tính BMI của bạn vào ô dưới đây:</h3>
+            <input type="text" placeholder="Cân nặng"> <span>(kg)</span> <br>
+            <input type="text" placeholder="Chiều cao"> <span>(cm)</span> <br>
+            <button class="form-button" type="button" onclick="alert('Bạn rất mập!')">Xem kết quả</button>
+            <form action="BMI" class="BMI-form">
+                <fieldset class="BMI-field">
+                    <legend><h1 class="BMI-title-">TÌNH TRẠNG DINH DƯỠNG</h1></legend>
+                    <div class="BMI-title">
+                        <h4>Bảng đánh giá theo chuẩn của Tổ chức Y tế thế giới(WHO) và dành riêng cho người châu Á ( IDI&WPRO):</h4>
+                        <div class="BMI-who">
+                            <div class="who1">
+                                <h5>Phân loại</h5>
+                                <h6>Cân nặng thấp (gầy)</h6>
+                                <h6>Bình thường</h6>
+                                <h6>Thừa cân</h6>
+                                <h6>Béo phì độ I</h6>
+                                <h6>Béo phì độ II</h6>
+                                <h6>Béo phì độ III</h6>
+                            </div>
+                            <div class="who2">
+                                <h5>WHO BMI (kg/m2)</h5>
+                                <h6> Dưới 18.5 </h6>
+                                <h6>18.5 - 24.9</h6>
+                                <h6>25 - 29.9</h6>
+                                <h6>30 - 34.9</h6>
+                                <h6>35 - 39.9</h6>
+                                <h6>Trên 40</h6>
+                            </div>
+                            <div class="who3">
+                                <h5>IDI & WPRO BMI (kg/m2)</h5>
+                                <h6>Dưới 18.5</h6>
+                                <h6>18.5 - 22.9</h6>
+                                <h6>23 - 24.9</h6>
+                                <h6>25 - 29.9</h6>
+                                <h6>30 - 34.9</h6>
+                                <h6>Trên 35</h6>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="form">
+            <div class="header">
+                <h1 class="contact">LIÊN HỆ VỚI CHÚNG TÔI</h1>
+                <p class="contact wonder">Mọi thắc mắc và yêu cầu hỗ trợ từ Dinosmilk, vui lòng để lại thông tin tại đây. Chúng tôi sẽ xem xét và gửi phản hồi sớm nhất</p>
+            </div>
+            <form action="xuly.php" class="form-text">
+                <fieldset class="field">
+                  <legend><b>THÔNG TIN HỖ TRỢ</b></legend>
+                  <span class="text-form">Họ tên*:</span>
+                  <br>
+                  <input type="text" placeholder="Họ và tên" class="a1"><br>
+                  <span class="text-form">Email*:</span><br>
+                  <input type="text" placeholder="abc@gmail.com" class="a1"><br>
+                  <span class="text-form">Địa chỉ:</span><br>
+                  <input type="text" placeholder="Địa chỉ" class="a1"><br>
+                  <span class="text-form">Số điện thoại*:</span><br>
+                  <input type="text" placeholder="Điện thoại liên lạc" class="a1"><br>
+                  <span class="text-form">Tiêu đề*:</span><br>
+                  <input type="text" placeholder="Nhập tiêu đề" class="a1"><br>
+                  <span class="text-form">Chọn bộ phận cần liên hệ:</span><br>
+                  <select name="Chọn bộ phận cần liên hệ" id="support">
+                    <option value="1" class="option">Quan hệ nhà đầu tư</option>
+                    <option value="2" class="option">Hợp tác đầu tư</option>
+                    <option value="3" class="option">Thắc mắc / Khiếu nại</option>
+                    <option value="4" class="option">Tuyển dụng</option>
+                    <option value="5" class="option">Xuất Khẩu</option>
+                    <option value="6" class="option">Sản phẩm / Mở đại lý</option>
+                    <option value="7" class="option">Tư vấn dinh dưỡng</option>
+                    <option value="8" class="option">Khác</option>
+                </select>
+                  <br>
+                  <span class="text-form">Nội dung*:</span><br>
+                <input type="text" placeholder="Nhập lời nhắn..." class="a1 a2">
+                <p class="text-content-send">Khi ấn "Gửi", bạn đã đồng ý </p> 
+                <p class="text-content-send"><span class="highlight">Điều khoản sử dụng</span> và <span class="highlight">Chính sách bảo mật</span></p>
+                <input type="submit" value="Gửi" class="form-submit">
+                </fieldset>
+              </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="company">
+            <div class="company-info">
+                <h4>GIỚI THIỆU</h4>
+                <h5>Dinosmilk là một sàn Thương Mại Điện Tử chuyên về phân phối bán 
+                    lẻ sữa với thiết kế giao diện Web dễ nhìn, thân thuộc cho người 
+                    Việt và sàn liên kết với các hãng sữa lớn, có tính tin cậy cao. 
+                    Với cách trang trí sản phẩm bắt mắt và thu hút khách hàng từ đó 
+                    có thể đẩy sản phẩm tăng khả năng hiển thị sản phẩm chủ đạo của gian 
+                    hàng. Đặc biệt, người tiêu dùng có thể dễ dàng biết các mã khuyến mãi, 
+                    voucher của các sản phẩm từ đó có thể thúc đẩy quyết định mua hàng, 
+                    tăng tỉ lệ mua hàng, kích thước giỏ hàng.
+                </h5>
+                <div class="mxh">
+                    <span class="MXH"><a href="https://www.facebook.com/hoccudiem10/"><i class="fab fa-facebook"></i></a></span>
+                    <span class="MXH"><a href="https://www.instagram.com/10diemhockitty/"><i class="fab fa-instagram"></i></a></span>
+                    <span class="MXH"><a href="https://www.youtube.com/watch?v=BME8wrgFl3U"><i class="fab fa-youtube-square"></i></a></span>
+                </div>
+            </div>
+            <div class="company-rules">
+                <h4>ĐIỀU KHOẢN</h4>
+                <div>
+                    <h5 class="company-rules-"><a class="color" href="#">Điều khoản Sử dụng</a></h5>
+                    <h5 class="company-rules-"><a class="color" href="#">Quyền Riêng Tư</a></h5>
+                    <h5 class="company-rules-"><a class="color" href="#">Nội quy cộng đồng</a></h5>
+                </div>
+                
+            </div>
+            <div class="company-hotline">
+                <h4>LIÊN HỆ</h4>
+                <h5>69/68 Đặng Thùy Trâm, Phường 13, Quận Bình Thạnh, TP. Hồ Chí Minh</h5>
+                <div class="company-hotline-">
+                    <h5><i id="icon-hotline" class="fas fa-headset"></i> (+84) (028) 38 255 777 </h5>
+                    <h5><i id="icon-hotline" class="far fa-envelope-open"></i> help@dinosmilkvietnam.com </h5>
+                </div>
+            </div>
+        </div>
+        <hr>
+            <div class="dino">
+                <div class="dino-law">
+                    <h4>Ⓒ2022 Dinosmilk Vietnam</h4>
+                    <h4>Bản quyền thuộc về công ty TNHH DINO, giấy phép ĐKKD số 010102002 do Sở KH&ĐT cấp ngày 10/04/2022.</h4>
+                    <h4>Giấy phép MXH số 194/GB-BTTTT ký ngày 11/04/2022</h4>
+                </div>
+                <div class="dino-logo">
+                    <img class="dino-logo-img" src="/images/logo.png" alt="">
+                </div>
+            </div>
+    </div>
+</body>
+</html>
